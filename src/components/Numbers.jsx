@@ -11,7 +11,7 @@ const Numbers = () => {
           return (
             <div
               key={item.id}
-              className={`box shadow ${styles.flex} justify-center sm:justify-start gap-[30px] p-[25px] rounded-[10px] cursor-pointer`}
+              className={`box shadow ${styles.flex} justify-center sm:justify-start gap-[30px] sm:gap-5 p-[25px] rounded-[10px] cursor-pointer`}
             >
               <div
                 className={`icon w-[58px] h-[58px] bg-[var(--sec-color)] rounded-full ${styles.flexCenter}`}
