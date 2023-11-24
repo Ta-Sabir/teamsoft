@@ -6,7 +6,7 @@ const CopyRight = () => {
         <span className="text-[var(--main-color)]">موقع تيم سوفت</span> جميع
         الحقوق محفوظة لـ
         <a
-          href="http://localhost:5173/eroor"
+          href="/eroor"
           className="text-[var(--main-color)] mr-[5px]"
         >
           Saber.Ai
