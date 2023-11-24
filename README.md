@@ -1,8 +1,23 @@
-# React + Vite
+# TEAM SOFT LANDING PAGE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It is a responsive website with a landing page designed and developed by TALHAOUI SABER, and the file was created using (https://bulma.io), [React]( https://reactjs.org) and use [Vite](https://vitejs.dev/) as a front-end build tool.
 
-Currently, two official plugins are available:
+## 📷 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## ✅ Available Scripts:
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
+
+Installation:
+
+`npm install`
+
+To Start Server:
+
+`npm run dev`
+
+To Visit App:
+
+`localhost:5175`
+
