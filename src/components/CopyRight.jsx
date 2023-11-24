@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const CopyRight = () => {
   return (
     // START COPY RIGHT COMPONENT
@@ -5,12 +7,9 @@ const CopyRight = () => {
       <p className="text-[12px] font-bold  md:text-[17px] md:font-normal text-center">
         <span className="text-[var(--main-color)]">موقع تيم سوفت</span> جميع
         الحقوق محفوظة لـ
-        <a
-          href="eroor"
-          className="text-[var(--main-color)] mr-[5px]"
-        >
+        <Link to={"*"} className="text-[var(--main-color)] mr-[5px]">
           Saber.Ai
-        </a>
+        </Link>
         <bdi className="mr-[5px]"> 2023 © </bdi>
       </p>
     </div>
