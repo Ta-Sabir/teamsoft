@@ -1,0 +1,48 @@
+nav .navbar-menu a {
+  position: relative;
+  transition: var(--trans-duration);
+}
+
+nav .navbar-menu a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: var(--main-color);
+  position: absolute;
+  right: 0;
+  bottom: -8px;
+  transition: var(--trans-duration);
+}
+
+nav .navbar-menu a:hover::before {
+  width: 100%;
+}
+
+nav .navbar-menu a.active {
+  color: var(--main-color);
+}
+
+nav .phone-menu {
+  backdrop-filter: blur(1.4px);
+}
+
+nav .phone-menu .phone-menu-content {
+  backdrop-filter: blur(1.4px);
+  box-shadow: 0 0.3rem 2em 0.4rem #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+  animation: phoneMenu 0.5s;
+}
+
+@keyframes phoneMenu {
+  0% {
+    scale: 0;
+  }
+
+  50% {
+    scale: 1.1;
+  }
+
+  100% {
+    scale: 1;
+  }
+}

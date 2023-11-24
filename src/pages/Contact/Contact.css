@@ -1,0 +1,4 @@
+#contact input:focus,
+#contact textarea:focus {
+  border-color: var(--main-color);
+}

@@ -1,21 +1,8 @@
-# TEAM SOFT LANDING PAGE
+# React + Vite
 
-It is a responsive landing page website designed and developed by TALHAOUI SABER . The landing page was created using React and using Vite as a front-end building tool.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 📷 Screenshots
+Currently, two official plugins are available:
 
-## ✅ Available Scripts:
-
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.
-
-Installation:
-
-`npm install`
-
-To Start Server:
-
-`npm run dev`
-
-To Visit App:
-
-`localhost:5175`
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

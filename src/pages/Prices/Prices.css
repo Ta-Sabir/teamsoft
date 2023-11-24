@@ -1,0 +1,26 @@
+#prices .year-prices {
+  border-bottom: 3px solid var(--third-color);
+}
+
+#prices .year-prices .month {
+  border-bottom: 3px solid var(--sec-color);
+  padding: 5px 10px 7px 0;
+}
+
+#prices .prices-boxs .prices-box::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  background-color: var(--sec-color);
+  border-radius: 25px;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+#prices .prices-boxs .prices-box:nth-child(2)::before {
+  content: "";
+  background-color: var(--main-color);
+}

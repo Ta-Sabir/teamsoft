@@ -1,0 +1,7 @@
+.partners .partners-imgs {
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #f4f4f4;
+}
+.partners .partners-imgs img:hover {
+  box-shadow: 0 8px 12px rgb(0 0 0 / 10%);
+}
