@@ -1,6 +1,6 @@
 # TEAM SOFT LANDING PAGE
 
-It is a responsive website with a landing page designed and developed by TALHAOUI SABER, and the file was created using (https://bulma.io), [React]( https://reactjs.org) and use [Vite](https://vitejs.dev/) as a front-end build tool.
+It is a responsive website with a landing page designed and developed by TALHAOUI SABER , and the file was created using TailwindCss , [React]( https://reactjs.org) and use [Vite](https://vitejs.dev/) as a front-end build tool.
 
 ## 📷 Screenshots
 
@@ -21,3 +21,6 @@ To Visit App:
 
 `localhost:5174`
 
+## ✅ Live Demo : 
+
+`https://team-soft.vercel.app/`
